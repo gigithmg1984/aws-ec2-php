@@ -4,6 +4,7 @@ pipeline {
         stage('AWS Deploy') {
             steps {
                 echo 'Hello world!'
+                sh 'echo $PWD'
             }
         }
     }
